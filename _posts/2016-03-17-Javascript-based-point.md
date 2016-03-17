@@ -1,3 +1,7 @@
+﻿---
+layout: post
+title: 孙肖旭的blog
+---
 #javascript
 ##前言  
 总结一些我在javacript学习中的难点和容易忽略的地方。
