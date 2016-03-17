@@ -1,6 +1,13 @@
-﻿---
+---
 layout: post
 title: 孙肖旭的blog
+description: "Just test."
+modified: 2016-03-17
+tags: [sample post]
+image:
+  feature: abstract-3.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 ---
 #javascript
 ##前言  
