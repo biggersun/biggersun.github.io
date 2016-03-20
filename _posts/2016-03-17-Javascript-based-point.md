@@ -1,16 +1,16 @@
 ---
 layout: post
-title: 孙肖旭的blog
+title: javascript基础笔记
 description: "Just test."
 modified: 2016-03-17
-tags: [sample post]
+tags: [javascript]
 image:
   feature: abstract-3.jpg
   credit: dargadgetz
   creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 ---
-#javascript
-##前言  
+# javascript
+## 前言  
 总结一些我在javacript学习中的难点和容易忽略的地方。
  
 附上javascript[MDN文档](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript)  

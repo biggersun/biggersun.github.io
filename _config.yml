@@ -1,5 +1,5 @@
-title:            Site Title
-description:      Describe your website here.
+title:            孙肖旭的博客
+description:      blog of sxx.
 disqus_shortname: hpstrtheme
 reading_time:     true
 words_per_minute: 200
@@ -9,14 +9,14 @@ url:
 
 # Owner/author information
 owner:
-  name:           Your Name
-  avatar:         avatar.jpg
-  bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
-  email:          you@email.com
+  name:           biggersun
+  avatar:         sxx.jpg
+  bio:            "远方的你啊 别牵挂 我也将随风 去到天涯 风停时，我会想起他 想起他的脸和他说过的话 春风吹，梧桐又发芽 只是你走后，我没有人说话"
+  email:          2659528347@qq.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        
   facebook:       
-  github:         
+  github:         biggersun
   stackexchange:  
   linkedin:       
   instagram:      
