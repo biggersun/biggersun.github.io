@@ -45,5 +45,6 @@ image:
 
 
 ### 参考文章
-<a href="http://www.zhangxinxu.com/wordpress/?p=583">CSS float浮动的深入研究、详解及拓展(一)</a>  
-<a href="http://www.zhangxinxu.com/wordpress/?p=594">CSS float浮动的深入研究、详解及拓展(二)</a>
+
+[CSS float浮动的深入研究、详解及拓展(一)](http://www.zhangxinxu.com/wordpress/?p=583)  
+[CSS float浮动的深入研究、详解及拓展(二)](http://www.zhangxinxu.com/wordpress/?p=594)  
