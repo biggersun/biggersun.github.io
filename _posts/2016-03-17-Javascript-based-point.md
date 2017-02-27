@@ -46,7 +46,7 @@ typeof(a[3])//undefined
 
 ### 如何访问用预留关键字做名称的值
 
-{% highlight %}
+{% highlight js %}
 obj.for = "sun";//语法错误，for 是一个预留关键字
 obj["for"] = "sun";//ok
 {% endhighlight %}
