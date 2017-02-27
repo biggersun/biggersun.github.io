@@ -3,7 +3,7 @@ layout: post
 title: 关于浮动的包裹性和破化性
 description: "浮动的理解"
 modified: 2016-03-21
-tags: [css],[BFC]
+tags: [css]
 image:
   feature: abstract-3.jpg
   credit: dargadgetz
