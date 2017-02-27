@@ -3,7 +3,7 @@ layout: post
 title: 关于浮动的包裹性和破化性
 description: "浮动的理解"
 modified: 2016-03-21
-tags: [css]
+tags: [css],[BFC]
 image:
   feature: abstract-3.jpg
   credit: dargadgetz
@@ -18,10 +18,8 @@ image:
 比如说：
 
 {% highlight html %}
-{% raw %}
 <p>这是一段文字<img>加上些</p>
 <p>这是一段文字<img style="float：left" src="img.jpg"/>加上些</p>
-{% raw %}
 {% endhighlight %}
 
 上面代码里面p标签是content box，但是文字是属于隐藏的inline boxes，对于line-boxes它的高度是由line-height属性决定的，但是对于图片自身有个隐藏的实体高度，而line-boxes高度是子元素最高的元素高度，所以没加浮动之前 li元素的高度和图片高度一致，文字和图片按顺序在一排排列。但是加了浮动属性之后，图片沿着left向左浮动并且破坏inline boxes的高度，使得文字所占高度回复本身，但是图片并没有脱离文档，所以还是在其中占有位置，使文字可以环绕加了float属性的图片。  
@@ -38,8 +36,10 @@ image:
 
 最全面的方法：就是利用after+zoom
 
-	.fix{zoom:1}
-	.fix:after{display:table,content:".";line-height:0;visibility:hidden;}
+{% highlight css %}
+.fix{zoom:1}
+.fix:after{display:table,content:".";line-height:0;visibility:hidden;}
+{% endhighlight %}
 
 给需要清楚浮动的元素加上fix类。
 
