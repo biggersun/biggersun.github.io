@@ -1,4 +1,16 @@
-##sublime package user setting
+---
+layout: post
+title: sublime 常用设置
+description: 我的 sublime 设置
+modified: 2016-08-21
+tags: [IDE]
+image:
+  feature: abstract-3.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
+---
+
+## sublime package user setting
 
 	{
     	"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
